@@ -15,8 +15,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-
-      - name: Set up Java version
+        name: Set up Java version
         with:
           java-version: ${{ env.JAVA_VERSION }}
           cache: 'maven'
